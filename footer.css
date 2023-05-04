@@ -1,0 +1,26 @@
+.b-example-divider {
+
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+  footer .text-muted{
+    margin-left: 1rem;
+    text-decoration: none;
+  }
+
+
+  @media (max-width: 396px){
+    .container footer{
+      display: flex;
+      flex-wrap:wrap;
+      justify-content:center; 
+      align-items:center;
+    }
+    footer .text-muted{
+     
+    }
+  }

@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: 'poppins', sans-serif;
+    background-color: #090909;
+    overflow-x: hidden;
+}
+
+
+/*hero section */
+.hero_section{
+    background-image: url(images/hero.png);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.hero_section img{
+    border-top-left-radius: 30vh;
+}
+
+.hero_section button{
+    background-color: #f3f3f3;
+    color: #101010;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.hero_section button:hover {
+    background: #5e5e5e;
+    transition: 0.2s all linear;
+    color: #f3f3f3;
+}
+
+.hero_section h1{
+    color: #f3f3f3;
+}
+.hero_section h1 span{
+    font-weight: bold;
+}
+
+.hero_section p{
+    font-size: large;
+}
+
+/*about*/
+.about{
+    
+    background-image: url(images/hero1.png);
+    background-size:cover;
+    /*Parallax effect*/
+	background-attachment: fixed;
+}
+.about p{
+    font-size: medium;
+    /*text-align: ;*/
+}
+
+.hero_section p{
+    color: #dbdbdb;
+    
+}
+
+
+/*about*/
+.about h3{
+    color: #f3f3f3;
+}
+
+.about p{
+    color: #dbdbdb;
+}
+
+/*uidesign section */
+.uidesign .card {
+    width: 100%; 
+    height: 60vh;
+}
+
+.uidesign .card img{
+    height: 50vh;
+    align-self: center;
+}
+
+
+/*logodesign section
+.logodesign .card {
+    max-height: 100%;  
+    width: 100%; 
+    height: 50vh;
+}
+*/
+
+
+.logodesign img{
+    height: 30vh;
+    align-self: center;
+}
+
+
+
+.col .card{
+    border-color: #c4c4c4;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.col .card-body{
+    background: #101010;
+}
+
+.card-body .card-title{
+    color: #ffff;
+}
+
+.card .card-body .card-text{
+    color: #dbdbdb;
+    font-size: medium;
+}
+
+/* skills starts*/
+
+/* skills end */
+
+
+/* contacts and maps */
+.contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffff;
+    background-color: #101010;
+    margin-top: -3rem;
+}
+
+.contact-container {
+    max-width: 180vh;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    /*background: #F9F9F9;*/
+    /*border-radius: 0.5rem;*/
+    overflow: hidden;
+}
+
+
+.form-container h3,
+.mycontact h3 {
+    font-size: 1.5rem;
+    /*text-transform: uppercase;*/
+    text-align: center;
+    /*font-weight: bold;*/
+}
+/*.form-container h3 span {
+    /*color: #FFC450;
+}*/
+
+.contact-form {
+    display: grid;
+    row-gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    outline: none;
+    padding: 10px;
+    font-size: medium;
+    color: #ffff;
+    background-color: #101010;
+    border-radius: 0.4rem;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 15rem;
+}
+
+.contact-form .send-button {
+    background: #f3f3f3;
+    color: #101010;
+    font-size: large;
+    cursor: pointer;
+}
+
+.contact-form .send-button:hover {
+    background: #5e5e5e;
+    transition: 0.2s all linear;
+    color: #f3f3f3;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.mycontact a{
+    font-size: 30px;
+    display: flex; 
+    justify-content: center; 
+    text-decoration: none; 
+    color: #f3f3f3;
+    margin-bottom: .8rem;
+
+    
+}
+.mycontact a:hover{
+    color:#dbdbdb;
+    transition: 0.4s;
+}
+
+.mycontact .link{
+    text-align: center; 
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
+/*hero media*/
+@media (max-width: 396px){
+    body, html{
+        margin: 0;
+        padding: 0;
+      }
+    .hero_section{
+        padding-bottom: 2rem;
+        /*text-align: center;*/
+    }  
+    .hero_section img{
+        max-width: 100%;
+        margin: 0 auto;
+        max-height: 80vh;
+        border-top-left-radius: 7rem;
+    }
+    .about img{
+        max-width: 100%;
+        margin: 0 auto;
+        max-height: 70vh;
+        margin-top: -4rem;
+    }
+}
+
+@media (max-width: 396px){
+    .wrapper{
+        width: 100%;
+        display: flex; 
+    justify-content: center; 
+
+    }
+}
+
+
+/*Contact media query */
+@media (max-width:964px) {
+    .contact-container {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px) {
+    .contact-container {
+        width: 90%;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 2rem !important;
+    }
+}

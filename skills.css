@@ -1,0 +1,105 @@
+.wrapper{
+    width: 100%;
+    min-width: 100%;
+    position: relative;
+}
+.wrapper .container{
+    width: 100%;
+    padding: 30px 30px 50px;
+    background-color: #151515;
+    border: 1px solid #c4c4c4;
+    border-radius: px;
+    color: #f3f3f3;
+} 
+
+.wrapper h2{
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+#skills h3{
+    color: #f3f3f3;
+}
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar{
+    position: relative;
+ 
+    border: 2px solid #f3f3f3;
+ 
+    border-radius: 20px;
+  
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+   
+ 
+}
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 75%;
+    }
+}
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 75%;
+    }
+}
+#js-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 50%;
+    }
+}
+#sql-bar{
+    animation: sql-fill 2s forwards;
+}
+@keyframes sql-fill{
+    100%{
+        width: 60%;
+    }
+} 
+#graphic-bar{
+    animation: graphic-fill 2s forwards;
+}
+@keyframes graphic-fill{
+    100%{
+        width: 75%;
+    }
+} 
+#ui-bar{
+    animation: ui-fill 2s forwards;
+}
+@keyframes ui-fill{
+    100%{
+        width: 80%;
+    }
+} 
+
+@media (max-width: 396px){
+    .skills .wrapper{
+    
+    }
+  }
