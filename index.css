@@ -249,6 +249,13 @@ html {
         max-height: 80vh;
         border-top-left-radius: 7rem;
     }
+    .about{
+        width: 100%;
+        background-size:cover;
+    /*Parallax effect*/
+	background-attachment: fixed;
+}
+    }
     .about img{
         max-width: 100%;
         margin: 0 auto;
