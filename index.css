@@ -251,16 +251,13 @@ html {
     }
     .about{
         width: 100%;
-        background-size:cover;
-    /*Parallax effect*/
-	background-attachment: fixed;
 }
     }
     .about img{
         max-width: 100%;
         margin: 0 auto;
         max-height: 70vh;
-        margin-top: -4rem;
+
     }
 }
 
