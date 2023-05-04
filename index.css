@@ -94,13 +94,20 @@ html {
     height: 50vh;
 }
 */
-
-
 .logodesign img{
     height: 30vh;
     align-self: center;
 }
 
+/*other section*/
+.others .card{
+    width: 100%; 
+}
+
+.others img{
+    height: 40vh;
+    align-self: center;
+}
 
 
 .col .card{
