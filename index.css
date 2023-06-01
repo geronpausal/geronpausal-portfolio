@@ -120,6 +120,10 @@ html {
     background: #101010;
 }
 
+.card-body:hover{
+    color: linear-gradient (to bottom, #a7a7a7, #181818); /* Define the gradient colors */
+} 
+
 .card-body .card-title{
     color: #ffff;
 }
@@ -128,6 +132,7 @@ html {
     color: #dbdbdb;
     font-size: medium;
 }
+
 
 /* skills starts*/
 
@@ -221,7 +226,7 @@ html {
     
 }
 .mycontact a:hover{
-    color:#dbdbdb;
+    color:#101010;
     transition: 0.4s;
 }
 
