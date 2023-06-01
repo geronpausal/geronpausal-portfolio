@@ -116,13 +116,14 @@ html {
     max-height: 100%;
     
 }
+.col .card:hover{
+    color: linear-gradient (to bottom, #a7a7a7, #181818); /* Define the gradient colors */
+}
+
 .col .card-body{
     background: #101010;
 }
 
-.card-body:hover{
-    color: linear-gradient (to bottom, #a7a7a7, #181818); /* Define the gradient colors */
-} 
 
 .card-body .card-title{
     color: #ffff;
