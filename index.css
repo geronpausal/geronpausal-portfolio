@@ -86,10 +86,6 @@ html {
     align-self: center;
 }
 
-.uidesign .card img:hover{
-    color: linear-gradient (to bottom, #a7a7a7, #181818); /* Define the gradient colors */
-}
-
 /*logodesign section
 .logodesign .card {
     max-height: 100%;  
