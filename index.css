@@ -86,6 +86,12 @@ html {
     align-self: center;
 }
 
+#myImg{
+    cursor: pointer;
+  transition: 0.3s;
+}
+#myImg:hover {opacity: 0.7;}
+
 /*logodesign section
 .logodesign .card {
     max-height: 100%;  
